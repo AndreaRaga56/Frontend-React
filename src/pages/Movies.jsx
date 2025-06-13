@@ -32,6 +32,7 @@ function Movies() {
 
   return (
     <>
+      <title>CineWorld - Tutti i Film</title>
       <main>
         <div className="container d-flex justify-content-center flex-column align-items-center">
           <h1 className="my-4 titolo">Tutti i Film</h1>

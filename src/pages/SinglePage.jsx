@@ -28,9 +28,11 @@ function SinglePage() {
 
     return (
         <>
+
             <main>
                 {curElem && (
                     <>
+                        <title>CineWorld - {curElem.title}</title>
                         <div className="container d-flex justify-content-center flex-column align-items-center">
                             <div className="my-card">
                                 <h1 className="mb-2">{curElem.title}</h1>

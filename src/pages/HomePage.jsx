@@ -3,9 +3,10 @@ import { Link } from "react-router-dom"
 function HomePage() {
     return (
         <main>
+            <title>CineWorld</title>
             <div className="container ">
                 <h1 className="my-3 text-center titolo"><strong>Benvenuto a CineWorld</strong>
-                    <br/>
+                    <br />
                     <small className="sottotitolo">Il tuo cinema online</small>
                 </h1>
                 <div className="text-center my-4">

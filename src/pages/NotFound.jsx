@@ -3,6 +3,9 @@ import { Link } from "react-router-dom"
 function NotFound() {
     return (
         <main>
+            
+            <title>Not Found</title>
+
             <div className="container">
                 <h1 className="my-5 text-center titolo"><strong>Error 404, page not found :(</strong></h1>
             </div>
