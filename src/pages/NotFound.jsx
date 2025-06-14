@@ -2,8 +2,7 @@ import { Link } from "react-router-dom"
 
 function NotFound() {
     return (
-        <main>
-            
+        <main>            
             <title>Not Found</title>
 
             <div className="container">

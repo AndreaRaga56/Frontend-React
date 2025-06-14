@@ -4,8 +4,7 @@ import axios from 'axios';
 import AppCard from "../components/AppCard"
 
 function Movies() {
-
-
+  
   let [listaMovies, setListaMovies] = useState([])
   let apiUrl = "http://localhost:8001"
 
@@ -28,8 +27,6 @@ function Movies() {
     )
   })
 
-
-
   return (
     <>
       <title>CineWorld - Tutti i Film</title>
@@ -37,7 +34,7 @@ function Movies() {
         <div className="container d-flex justify-content-center flex-column align-items-center">
           <h1 className="my-4 titolo">Tutti i Film</h1>
           <div>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mb-5">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2 mb-5">
               {printMovies}
             </div>
           </div>
